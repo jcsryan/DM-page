@@ -1,10 +1,9 @@
 import React from "react";
 
 function Navlist(props) {
-    const tabs = ['About','Games','Pricing','Get in Touch']
+    const tabs = ['About','Games','Pricing','Get in Touch', 'Who we are']
     return(
         <div>
-            <hr></hr>
         <ul className='navlist' >
             {tabs.map(tab => (
                 <li className="nav-list" key={tab}>
@@ -14,12 +13,11 @@ function Navlist(props) {
                         props.currentPage === tab ? 'nav-link active' : 'nav-link'
                     }
                     >
-                        {tab}
+                      {tab}
                     </button>
                 </li>
             ))}
         </ul>
-        <hr></hr>
         </div>
 
     )
