@@ -6,6 +6,7 @@ import Games from './components/Games/games';
 import Contact from './components/Contact/contact';
 import Foot from './components/Foot/foot';
 import Us from './components/Us/us';
+import Illustration from './components/Illustration/illustration'
 
 function App() {
   const [ currentPage, handlePageChange] = useState('About')
@@ -22,6 +23,8 @@ function App() {
         return <About/>;
       case 'Who we are' :
         return <Us/>;
+      case 'Character Illustration':
+        return <Illustration/>
       default:
         return <About/>
     }

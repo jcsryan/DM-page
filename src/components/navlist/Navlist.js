@@ -1,7 +1,7 @@
 import React from "react";
 
 function Navlist(props) {
-    const tabs = ['About','Games','Pricing','Get in Touch', 'Who we are']
+    const tabs = ['About','Games','Pricing','Get in Touch', 'Who we are', 'Character Illustration']
     return(
         <div>
         <ul className='navlist' >
