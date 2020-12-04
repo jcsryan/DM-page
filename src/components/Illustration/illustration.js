@@ -13,22 +13,25 @@ import Zinkas from '../assets/Zinkas.png'
 
 function Illustration(){
     return (
-        <div className="gallery">
-            <div className="gallery2">
-                <div className="Characters">
+        <div className="imagesCody">
+            <div className="row">
+                <div className="column">
                 <img src={Murd} className="char" alt="webpage screenshot"></img> 
                 <img src={Rocky} className="char" alt="webpage screenshot"></img> 
+                </div>
+                <div className="column">
                 <img src={Dav} className="char" alt="webpage screenshot"></img> 
                 <img src={Thaedris} className="char" alt="webpage screenshot"></img> 
+                </div>
+                <div className="column">
                 <img src={Thortain} className="char" alt="webpage screenshot"></img> 
                 <img src={Zinkas} className="char" alt="webpage screenshot"></img> 
                 </div>
-                <div className="Full">
+                <div className="column">
                 <img src={Racer} className="full" alt="webpage screenshot"></img> 
                 <img src={Racer2} className="full" alt="webpage screenshot"></img> 
-
                 </div>
-                <div className="Scenes">
+                <div className="column">
                 <img src={Scene1} className="scene" alt="webpage screenshot"></img> 
                 <img src={Golem} className="scene" alt="webpage screenshot"></img> 
                 </div>

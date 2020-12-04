@@ -31,9 +31,10 @@ function App() {
   }
   return (
     <div >
-      <header className="header " >
-      </header>
+      <header className="header">
+     
       <Navlist currentPage={currentPage} handlePageChange={handlePageChange}></Navlist>
+      </header>
       <div class ="feather">
         {renderPage()}
          <br></br>
