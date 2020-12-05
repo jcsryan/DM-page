@@ -1,34 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
 
 body {
-  background-color: #333333;
+ 
   margin-left: 5%;
   margin-right: 5%;
 }
 
 .about {
-  background-color: #666666;
+  background-color: #E0E0EC;
 }
 
 .games {
-  background-color: #666666;
+  background-color: #E0E0EC;
 }
 
 .pricing {
-  background-color: #666666;
+  background-color: #E0E0EC;
+}
+
+html {
+  background-image: url(./components/assets/pngwing.com\ \(1\).png);
+  background-size: auto;
+  background-color: #1F1F29;
 }
 
 .header {
-  background-image: url(../src/components/assets/cody-clark-scene.jpg);
-  z-index: 100;
-  background-size: auto auto;
-  background-repeat: no-repeat;
-  height: auto;
-  border: 2px solid;
+  background-image: url(./components/assets/53957.jpg);
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  display: block;
+}
+
+.navbar {
+  background-color: #700101;
+  margin-top: 1rem;
+  padding-top: .4rem;  
 }
 
 .us {
-  background-color: #666666;
+  background-color: #E0E0EC;
   margin:0;
   padding:0;
   width:100%;
@@ -45,7 +56,7 @@ body {
 }
 
 .contact {
-  background-color: #666666;
+  background-color: #E0E0EC;
   text-align: center;
 }
 
@@ -56,6 +67,8 @@ body {
   list-style-type: none;
   min-height: 1vh;
   text-decoration: none;
+  background-color: 700101;
+
 }
 
 
@@ -118,7 +131,7 @@ body {
 }
 
 .column {
-  flex: 100%;
+  flex: 40%;
  
   padding: 0 4px;
 
@@ -127,16 +140,12 @@ body {
 .column img {
   margin-top: 8px;
   vertical-align: middle;
-  width:  450px;
-  height: 450px;
-  align-items: center;
+  width: 50%;
 }
 
-.imagesCody {
-  background-color: #666666;
-
-}
 .row {
-  margin: auto;
-  width: 55%;
+  width: 57%;
+  margin-left: 20%;
+ 
+  background-color: #E0E0EC;
 }

@@ -13,7 +13,7 @@ import Zinkas from '../assets/Zinkas.png'
 
 function Illustration(){
     return (
-        <div className="imagesCody">
+        
             <div className="row">
                 <div className="column">
                 <img src={Murd} className="char" alt="webpage screenshot"></img> 
@@ -27,6 +27,7 @@ function Illustration(){
                 <img src={Thortain} className="char" alt="webpage screenshot"></img> 
                 <img src={Zinkas} className="char" alt="webpage screenshot"></img> 
                 </div>
+                <br></br>
                 <div className="column">
                 <img src={Racer} className="full" alt="webpage screenshot"></img> 
                 <img src={Racer2} className="full" alt="webpage screenshot"></img> 
@@ -36,7 +37,7 @@ function Illustration(){
                 <img src={Golem} className="scene" alt="webpage screenshot"></img> 
                 </div>
             </div>
-        </div>
+        
     )
 };
 
