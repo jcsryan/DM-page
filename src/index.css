@@ -24,6 +24,19 @@ html {
   background-color: #1F1F29;
 }
 
+p {
+  font-size: larger;
+}
+
+h1 {
+  font-family: 'Tangerine', cursive;
+  font-weight: 800;
+}
+
+.feather {
+  text-align: center;
+}
+
 .header {
   background-image: url(./components/assets/53957.jpg);
   text-align: center;
@@ -31,6 +44,7 @@ html {
   margin: auto;
   display: block;
 }
+
 
 .navbar {
   background-color: #700101;
@@ -48,7 +62,7 @@ html {
 }
 
 .text {
-  margin-top: 8rem;
+  margin-top: 3rem;
 }
 
 .container {
@@ -70,8 +84,6 @@ html {
   background-color: 700101;
 
 }
-
-
 
 #nav-list-a {
   width: 100px;
@@ -132,9 +144,7 @@ html {
 
 .column {
   flex: 40%;
- 
   padding: 0 4px;
-
 }
 
 .column img {
@@ -146,6 +156,5 @@ html {
 .row {
   width: 57%;
   margin-left: 20%;
- 
   background-color: #E0E0EC;
 }
