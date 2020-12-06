@@ -19,7 +19,7 @@ body {
 }
 
 html {
-  background-image: url(./components/assets/pngwing.com\ \(1\).png);
+  background-image: url(./components/assets/background.png);
   background-size: 33%;
   background-color: #1F1F29;
 }
@@ -33,6 +33,11 @@ h1 {
   font-weight: 800;
 }
 
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
 .feather {
   text-align: center;
 }
@@ -40,11 +45,17 @@ h1 {
 .header {
   background-image: url(./components/assets/53957.jpg);
   text-align: center;
-  width: 60%;
+  width: 100%;
   margin: auto;
   display: block;
+  
 }
 
+.header img {
+  object-fit: fill;
+  height: auto;
+  background-repeat: no-repeat;
+}
 
 .navbar {
   background-color: #700101;
@@ -157,4 +168,30 @@ h1 {
   width: 57%;
   margin-left: 20%;
   background-color: #E0E0EC;
+}
+
+
+.gametype {
+  max-width: 400px;
+  min-width: 400px;
+}
+
+.spantitle {
+  font-size: larger;
+  font-weight: 900;
+  
+}
+
+.copyright {
+  font-size: smaller;
+}
+
+.textmargin {
+ margin-left: 20%;
+ margin-right: 20%;
+}
+
+.quotes {
+  margin-left: 20%;
+  margin-right: 20%;
 }

@@ -7,6 +7,7 @@ import Contact from './components/Contact/contact';
 import Foot from './components/Foot/foot';
 import Us from './components/Us/us';
 import Illustration from './components/Illustration/illustration'
+import Logo from './components/assets/logo.png'
 
 function App() {
   const [ currentPage, handlePageChange] = useState('About')
@@ -32,6 +33,7 @@ function App() {
   return (
     <div className="body">
       <header className="header">
+      <img src={Logo} className="game" alt="webpage screenshot"></img> 
       </header>
       <div className="navbar">
       <Navlist currentPage={currentPage} handlePageChange={handlePageChange}></Navlist>
