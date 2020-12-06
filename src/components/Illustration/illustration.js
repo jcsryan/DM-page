@@ -15,6 +15,8 @@ function Illustration(){
     return (
         
             <div className="row">
+                <p>Here is a small sample of Cody's artwork.</p>
+                <p>All commissions are per diem, please contact Cody directly for more information!</p>
                 <div className="column">
                 <img src={Murd} className="char" alt="webpage screenshot"></img> 
                 <img src={Rocky} className="char" alt="webpage screenshot"></img> 

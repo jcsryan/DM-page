@@ -7,7 +7,7 @@ function Pricing() {
             <div>
                 <h1>Pricing </h1> 
             </div>
-            <div>
+            <div className="textmargin">
                 <p>We take into account a number of variables that impact the price. Game type, game length, number of 
                     players, even new vs continuing campaigns! Rest assured though, a night of magic and intrigue with
                     your friends, family, or coworkers wont break the bank. In fact a night spent with us is comprable
@@ -17,7 +17,7 @@ function Pricing() {
                     adventurer!
                 </p>
             </div>
-            <div>
+            <div className="textmargin">
                 <ul>
                     <li>Single session for new players (four to six): 25 dollars per person for a 4 hour adventure!</li>
                     <li>Campaign for new players (four to six): 25 dollars per person per session, 100$ flat fee after five sessions!</li>

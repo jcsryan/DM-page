@@ -35,7 +35,7 @@ h1 {
 
 ul {
   list-style-type: none;
-  text-align: left;
+ 
 }
 
 .feather {
@@ -180,6 +180,7 @@ ul {
   font-size: larger;
   font-weight: 900;
   
+  
 }
 
 .copyright {
@@ -189,6 +190,7 @@ ul {
 .textmargin {
  margin-left: 20%;
  margin-right: 20%;
+ text-align: left;
 }
 
 .quotes {
